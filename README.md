@@ -16,7 +16,7 @@ OpenAI (so the dialogue feels alive).
 
 ## 2.  Quick Demo
 
-```bash
+
 # clone the repo
 git clone https://github.com/julionevarez/npcflow
 cd npcflow-lang
@@ -33,3 +33,4 @@ echo "OPENAI_API_KEY=sk-..." > .env
 
 # run the villager script
 python interpreter.py scripts/villager.npcflow
+
