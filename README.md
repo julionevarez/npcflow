@@ -9,7 +9,8 @@ OpenAI (so the dialogue feels alive).
 
 ## 1. Why I built it
 * I love Skyrim and wanted a lightweight way to prototype NPC dialogue.  
-* Traditional dialogue trees get bulky; a mini DSL keeps the script readable.  
+* After doing some research on game development, I saw that often times traditional dialogue trees get bulky and wanted to attempt to create a mini DSL that keeps the script readable.
+* I wanted to challenge myself and explore something related to AI, even if it was just a simple, barebones implementation. This project gave me a fun way to dip my toes into how natural language and code can work together.  
 * Adding **@ai** hooks shows how a custom language can call an external API.
 
 ---
@@ -27,7 +28,8 @@ OpenAI (so the dialogue feels alive).
 3. **Install dependencies**  
    `pip install -r requirements.txt`
 
-4. **Add your OpenAI key to a `.env` file**  
+
+4. **Add your OpenAI key to a `.env` file Note: You need an OpenAI account with credits to use this**  
    `OPENAI_API_KEY=sk-...`
 
 5. **Run an example script**  
@@ -66,14 +68,14 @@ OpenAI (so the dialogue feels alive).
 | File | What it does |
 |------|--------------|
 | **villager.npcflow**   | Villager warns about dragons, bandits, and smithy tales (uses AI). |
-| **blacksmith.npcflow** | Blacksmith tells a forge tale and sells items. |
-| **merchant.npcflow**   | Merchant prices wares and shares rumors. |
+| **blacksmith.npcflow** | Blacksmith tells a forge tale. (Uses Ai depending on option selected) |
+| **merchant.npcflow**   | Merchant personality and shares rumors. |
 | **guard.npcflow**      | City guard complains about duties and bandits. |
-| **fizzbuzz.npcflow**   | Classic FizzBuzz (shows DSL can output non‑dialogue logic). |
+| **fizzbuzz.npcflow**   | Classic FizzBuzz. |
 
 ---
 
-## 5. How the Interpreter Works (high level)
+## 5. How the Interpreter Works
 
 1. **Parsing** – `textX` reads `grammar.npcflow` and turns your script into a Python object tree.  
 2. **Walking** – `interpreter.py` walks that tree, printing each `line` or building a choice menu.  
