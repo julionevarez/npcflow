@@ -1,0 +1,9 @@
+npc "Villager" {
+    line "Good day, traveler! What strange sights have I witnessed on the roads today?" @ai;
+
+    choice {
+        "Any rumors of dragons?"  -> @ai("dragon_whisper");
+        "Bandits on the roads?"   -> @ai("bandit_rumor");
+        "Smithy stories?"         -> @ai("forge_tale");
+    }
+}

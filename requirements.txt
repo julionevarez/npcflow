@@ -1,0 +1,9 @@
+# requirements.txt
+#
+# List of dependencies for NPCDialogueFlow.
+# Install with: pip install -r requirements.txt
+
+# Core Libraries
+textX>=3.3.1      # DSL/metamodel library for parsing our grammar
+openai>=0.27.0    # OpenAI Python client for GPT API calls
+python-dotenv>=0.21.0  # Loads .env file automatically

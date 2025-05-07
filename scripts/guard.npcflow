@@ -1,0 +1,10 @@
+npc "Town Guard" {
+
+    line "Keep your nose clean, traveller. These streets see everything.";
+
+    choice {
+        "Any dragon sightings lately?"       -> @ai("dragon_whisper");
+        "Bandits on the roads?"              -> @ai("bandit_rumor");
+        "May I enter the city?"              -> "City’s open, but keep your weapons sheathed and your hands where I can see them.";
+    }
+}

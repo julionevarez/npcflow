@@ -1,0 +1,32 @@
+DialogueFile:
+    npcs*=NPC
+;
+
+NPC:
+    'npc' name=STRING '{'
+        statements*=Statement
+    '}'
+;
+
+Statement:
+    Line
+  | Choice
+;
+
+Line:
+    'line' text=STRING ai?='@ai'? ';'
+;
+
+Choice:
+    'choice' '{'
+        options*=Option
+    '}'
+;
+
+Option:
+    display=STRING '->' ( target=STRING | aiCall=AiCall ) ';'
+;
+
+AiCall:
+    '@ai' '(' key=STRING ')'
+;

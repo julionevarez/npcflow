@@ -1,0 +1,10 @@
+npc "Merchant" {
+
+    line "Everything’s for sale, my friend— everything!";
+
+    choice {
+        "Show me your wares."            -> "Take a look. Finest goods this side of the Jerall Mountains.";
+        "Any rumors going around?"       -> @ai("bandit_rumor");
+        "Heard any tales from the forge?"-> @ai("forge_tale");
+    }
+}

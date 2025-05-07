@@ -1,0 +1,6 @@
+npc "FizzBuzzMaster" {
+  line "Here is FizzBuzz:";
+  choice {
+    "Show me the sequence" -> @ai("fizzbuzz");
+  }
+}

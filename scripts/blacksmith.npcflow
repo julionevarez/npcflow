@@ -1,0 +1,9 @@
+npc "Blacksmith" {
+
+    line "Ah, sharpening my steel keeps the frost from my bones.";
+
+    choice {
+        "Got any stories while you work?" -> @ai("forge_tale");
+        "Can you temper my gear?"         -> "Bring me a few iron ingots and some coin, and I’ll make it sing with fire.";
+    }
+}

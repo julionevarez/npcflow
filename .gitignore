@@ -1,0 +1,9 @@
+# Virtual environment folder
+.venv/
+
+# Environment file with your API key
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
