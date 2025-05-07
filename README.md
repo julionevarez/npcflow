@@ -18,12 +18,12 @@ OpenAI (so the dialogue feels alive).
 
 ```bash
 # clone the repo
-git clone https://github.com/<your‑user>/npcflow-lang.git
+git clone https://github.com/julionevarez/npcflow
 cd npcflow-lang
 
 # (optional) create & activate a virtual environment
 python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+.venv\Scripts\activate
 
 # install dependencies
 pip install -r requirements.txt
