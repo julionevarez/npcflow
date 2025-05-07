@@ -13,10 +13,10 @@ The theme for my sample scripts is **Skyrim‑style chatter**: blacksmiths, guar
 
 ---
 
-## 2. Quick Demo (5‑minute setup)
+## 2. Quick Demo
 
 1. **Clone the repo**  
-   `git clone https://github.com/<your‑user>/npcflow.git`  
+   `git clone https://github.com/julionevarez/npcflow`  
    `cd npcflow`
 
 2. *(Optional)* **Create & activate a virtual environment**  
@@ -27,7 +27,7 @@ The theme for my sample scripts is **Skyrim‑style chatter**: blacksmiths, guar
    `pip install -r requirements.txt`
 
 4. **Add your OpenAI key to a `.env` file**  
-   `echo OPENAI_API_KEY=sk-... > .env`
+   `OPENAI_API_KEY=sk-...`
 
 5. **Run an example script**  
    `python interpreter.py scripts/villager.npcflow`  
