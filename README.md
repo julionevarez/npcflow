@@ -97,12 +97,3 @@ The theme for my sample scripts is **Skyrim‑style chatter**: blacksmiths, guar
 
         python interpreter.py scripts/bard.npcflow
 
----
-
-## 7. Credits
-
-* **OpenAI API** – Large‑language‑model responses.  
-* **textX / arpeggio** – Parsing library that made creating a DSL manageable.  
-* README written by **\<your name\>, Grade 12, Computer Science**.
-
-Happy scripting!
