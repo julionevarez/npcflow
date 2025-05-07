@@ -1,8 +1,9 @@
 # NPCFlow – a Tiny Dialogue Language
 
-NPCFlow is my final‑project programming language.  
-It lets you write short NPC conversations in plain text and then run them with Python.  
-The theme for my sample scripts is **Skyrim‑style chatter**: blacksmiths, guards, and villagers that can respond with either fixed lines or AI‑generated ones (via OpenAI).
+**NPCFlow** is my final–project programming language.  
+It lets you write simple NPC conversations in plain text and run
+them with Python. In this case, I decided to do "Skyrim-Style" NPC conversations. Some lines are static, others can be generated on‑the‑fly by
+OpenAI (so the dialogue feels alive).
 
 ---
 
