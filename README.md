@@ -99,3 +99,7 @@ OpenAI (so the dialogue feels alive).
 2. Run it with:
 
         python interpreter.py scripts/bard.npcflow
+
+
+VIDEO:
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSS_hMft605Nv2zpPcQSIvZgy0DVtylDjr94m0W9GrIIN59uFZKkLiHcYCPe8hd3UE5eDljfB9X5OJy/pubembed?start=false&loop=true&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
